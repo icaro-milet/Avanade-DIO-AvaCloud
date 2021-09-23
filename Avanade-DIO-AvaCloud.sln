@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DIO.AvaCloud.Domain", "DIO.AvaCloud.Domain\DIO.AvaCloud.Domain.csproj", "{406AAE96-3F7A-4687-A0A7-07CF892EE3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIO.AvaCloud.Tests", "DIO.AvaCloud.Tests\DIO.AvaCloud.Tests.csproj", "{0F0C81B1-A28D-4F60-A8D5-3A37DD30A733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406AAE96-3F7A-4687-A0A7-07CF892EE3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406AAE96-3F7A-4687-A0A7-07CF892EE3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406AAE96-3F7A-4687-A0A7-07CF892EE3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406AAE96-3F7A-4687-A0A7-07CF892EE3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0C81B1-A28D-4F60-A8D5-3A37DD30A733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0C81B1-A28D-4F60-A8D5-3A37DD30A733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0C81B1-A28D-4F60-A8D5-3A37DD30A733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0C81B1-A28D-4F60-A8D5-3A37DD30A733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C1389F6-A707-4D2D-A0FF-4FA723FD24DF}
+	EndGlobalSection
+EndGlobal
