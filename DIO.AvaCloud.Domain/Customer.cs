@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace DIO.AvaCloud.Domain
 {
-    public class Customer
+    public class Customer : EntityBase
     {
-        public int CustomerId { get; set; }
-
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -36,7 +34,10 @@ namespace DIO.AvaCloud.Domain
 
         public override string ToString() => 
             $"Nome completo: {FullName} | Email: {Email} | Data de nascimento: {Birthday}";
-        
 
+        public override bool Validate()
+        {
+            return !string.IsNullOrWhiteSpace(FirstName);
+        }
     }
 }

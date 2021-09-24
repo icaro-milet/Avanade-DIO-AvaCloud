@@ -6,10 +6,8 @@
         Residential = 2
     }
 
-    public class Address
+    public class Address : EntityBase
     {
-        public int AddressId { get; set; }
-
         public AddressType AddressType { get; set; }
 
         public string City { get; set; }
@@ -24,8 +22,9 @@
 
         public string Complement { get; set; }
 
-
-        public bool Validate() => !string.IsNullOrWhiteSpace(PostCode);
-
+        public override bool Validate()
+        {
+            return !string.IsNullOrWhiteSpace(PostCode);
+        }
     }
 }
