@@ -17,6 +17,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "IIS Production": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production"
+      }
+    },
     "DIO.AvaCloud.API": {
       "commandName": "Project",
       "launchBrowser": true,
